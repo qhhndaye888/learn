@@ -1,0 +1,112 @@
+.chinatown-review {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+.chinatown-review h1 {
+  display: block;
+  color: #464547;
+  font-size: 20px;
+  font-weight: bold;
+}
+.chinatown-review .content {
+  float: left;
+  width: 570px;
+}
+.chinatown-review .content .box {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #eee;
+}
+.chinatown-review .content .box .boxc {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 20px;
+  color: #464547;
+}
+.chinatown-review .content .box .boxc p {
+  margin-bottom: 10px;
+}
+.chinatown-review .content .box .boxc .readmore {
+  color: #9b9b9b;
+  cursor: pointer;
+}
+.chinatown-review .content .box .boxc .readmore:hover {
+  color: #be1e2e;
+}
+.chinatown-review .content .box .boxc .packup {
+  display: block;
+  text-align: right;
+  font-style: normal;
+}
+.chinatown-review .content .box .boxc .packup .ipackup {
+  display: inline-block;
+  background: url(/img/v2/ico2.png) no-repeat transparent;
+  width: 16px;
+  height: 16px;
+  background-position: -199px -148px;
+  vertical-align: sub;
+}
+.chinatown-review .content .box .boxc .packup:hover {
+  text-decoration: none;
+}
+.chinatown-review .content .box .boxc .packup:hover .ipackup {
+  background-position: -247px -148px;
+}
+.chinatown-review .content .box .boxt {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+.chinatown-review .sidebar {
+  float: right;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #eee;
+}
+.chinatown-review .sidebar li {
+  overflow: hidden;
+  padding: 12px 0;
+  border-bottom: 1px dotted #2d2c2d;
+}
+.chinatown-review .sidebar li p {
+  float: left;
+  font-size: 14px;
+  line-height: 15px;
+}
+.chinatown-review .sidebar li em {
+  float: right;
+  line-height: 30px;
+  font-weight: bold;
+  color: #2d2c2d;
+}
+.chinatown-review .sidebar li span {
+  float: right;
+  margin-left: 20px;
+  width: 44px;
+  height: 30px;
+  background: url(/img/v2/ico2.png) no-repeat #be1e2e;
+  background-position: -565px -46px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.chinatown-review .sidebar .sidebarc {
+  text-align: center;
+  margin-top: 20px;
+  line-height: 20px;
+}
+.chinatown-review .sidebar .sidebarc .sidebarcbtn {
+  display: inline-block;
+  border-radius: 36px;
+  width: 160px;
+  height: 36px;
+  line-height: 36px;
+  color: white;
+  background-color: #be1e2e;
+  font-size: 16px;
+  cursor: pointer;
+}
+.chinatown-review .sidebar .sidebarc .sidebarcbtn:hover {
+  text-decoration: none;
+}

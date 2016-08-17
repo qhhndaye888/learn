@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/util/jquery-1.7.2.js"></script>
+    <script src="../../js/components/base-widget.js"></script>
+    <script src="../../js/util/select-show.js"></script>
+    <script src="../../js/components/learn/quantity-learn-select.js"></script>
+    <script src="../../js/components/learn/age-learn-selector.js"></script>
+    <script src="../../js/components/learn/age-learn-selector-container.js"></script>
+    <script src="../../js/components/learn/children-learn-quantity-selector.js"></script>
+    <script src="../../js/components/learn/passenger-learn-selector-panel.js"></script>
+    <script src="../../js/components/learn/passenger-learn-selector.js"></script>
+
+
+    <link rel="stylesheet" href="../../css/v2/style.css">
+</head>
+<body>
+<div class="banner2">
+    <div class="wrap cf">
+        <div class="banners">
+            <div class="cf">
+                <div class="l mgt10" id="passengerSelector">
+                    <p class="btitle">Passengers</p>
+                    <div class="binput">
+                        <input type="text" placeholder="1 Passenger" readonly="readonly" sid="txtPassenger">
+                        <i class="biarrow-man" sid="btnPassenger"></i>
+
+                        <div class="choosepassengers dn" sid="passengerPanel">
+                            <ul class="">
+                                <li class="bdb7" sid="adultSelector">
+                                    <div class="choosepassengers-text">Adult</div>
+                                    <div class="choosepassengers-content">
+                                        <span class="minus" sid="btnSub"></span>
+                                        <em sid="txtValue">1</em>
+                                        <span class="plus" sid="btnAdd"></span>
+                                    </div>
+                                </li>
+                                <li sid="childSelector">
+                                    <div class="choosepassengers-text">Children(0-12)</div>
+                                    <div class="choosepassengers-content" sid="quantitySelector">
+                                        <span class="minus" sid="btnSub"></span>
+                                        <em sid="txtValue">0</em>
+                                        <span class="plus" sid="btnAdd"></span>
+                                    </div>
+
+                                    <div class="child-box dn" sid="ageSelector">
+                                        <h3 sid="tips" class="pdl5 pdb5 m f12">Please select the ages of the
+                                            children</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- AgeSelector template -->
+<div id="age-select-template" class="dn">
+    <div class="children-age">
+        <div sid="childAgeDiv" class="input">
+            <div class="select">
+                <div class="select-content">
+                    <span sid="ageAreaShow"><em>Age</em></span>
+                    <i class="sjx"></i>
+                </div>
+                <select sid="ageArea">
+
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+
+    new MyPassengerSelector({
+        view: $("#passengerSelector")
+    });
+</script>
+
+</html>
